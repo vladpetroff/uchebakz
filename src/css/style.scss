@@ -19,7 +19,6 @@
   }
 }
 
-
 .overflow-hid{
   overflow: hidden;
   position:fixed;
@@ -1896,7 +1895,7 @@ footer{
             margin-top: 10px;
           }
           time{
-            font-size: 16px;
+            font-size: 15px;
             line-height: 1.25;
             float: right;
             width: 140px;
@@ -2049,7 +2048,7 @@ footer{
           h2{
             font-size: $font-size-h4;
             line-height: 1.1;
-            width:250px;
+            width:210px;
             display: inline-block;
             min-height:34px;
           }
@@ -2057,7 +2056,7 @@ footer{
             font-size: $font-size-h4;
             line-height: 1.1;
             float:right;
-            width:100px;
+            width:140px;
             text-align: right;
           }
           h3{
@@ -2462,6 +2461,11 @@ footer{
       line-height: 1.6;
       font-family: $font-family-serif;
       margin-bottom: 15px;
+    }
+    li{
+      font-size:1.2em;
+      line-height: 1.1;
+      margin-bottom:10px;
     }
     .sign{
       margin-top: 25px;

@@ -1,0 +1,65 @@
+extends includes/template
+
+block title
+	title Анонсы
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+					li: a(href="children.html") Для детей
+
+				section.projects.block
+					h1 Творчество
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_aviamodel.html")
+									img(src="./img/activity/img_03.png", alt="Творчество")
+								p Авиамоделирование
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_actor.html")
+									img(src="./img/activity/img_01.png", alt="Развитие ребенка")
+								p Актерское мастерство
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_space.html")
+									img(src="./img/activity/img_09.png", alt="Спорт")
+								p Космонавтика
+
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_dj.html")
+									img(src="./img/activity/img_04.png", alt="Танцы")
+								p Курсы радиоведущих и диджеев
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_draw.html")
+									img(src="./img/activity/img_02.png", alt="Языковые курсы")
+								p Рисование, художественные курсы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art_robo.html")
+									img(src="./img/activity/img_05.png", alt="Продленка")
+								p Робототехника и конструирование
+
+
+
+	include includes/_footer
+

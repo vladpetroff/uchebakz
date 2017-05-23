@@ -1,17 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1772" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1973" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1994" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2843" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1653" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1756" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1957" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1978" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2832" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1637" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/account.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/article_detail.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/children.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/children_art.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/children_art_aviamodel.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/includes/_navbar.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/includes/_sidebar.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/rossotrud.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/activity_soot_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/activity_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/anonsDetail_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/anons_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/contacts_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_footer_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_header_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/newsDetail_var2.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/news_var2.jade" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/about/img01.png" afterPath="$PROJECT_DIR$/src/img/about/img01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/about/img02.png" afterPath="$PROJECT_DIR$/src/img/about/img02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/about/img03.png" afterPath="$PROJECT_DIR$/src/img/about/img03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/about/img04.png" afterPath="$PROJECT_DIR$/src/img/about/img04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/about/img05.png" afterPath="$PROJECT_DIR$/src/img/about/img05.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/activity/img_03.jpg" afterPath="$PROJECT_DIR$/src/img/activity/img_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/activity/rs-project-default.png" afterPath="$PROJECT_DIR$/src/img/activity/rs-project-default.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_01.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_02.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_03.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_04.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_05.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/announcements/img_06.jpg" afterPath="$PROJECT_DIR$/src/img/announcements/img_06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/contacts/img01.jpg" afterPath="$PROJECT_DIR$/src/img/contacts/img01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/contacts/img02.jpg" afterPath="$PROJECT_DIR$/src/img/contacts/img02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/blank.gif" afterPath="$PROJECT_DIR$/src/img/helpers/blank.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/bx_loader.gif" afterPath="$PROJECT_DIR$/src/img/helpers/bx_loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/controls.png" afterPath="$PROJECT_DIR$/src/img/helpers/controls.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/fancybox_loading.gif" afterPath="$PROJECT_DIR$/src/img/helpers/fancybox_loading.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/fancybox_loading@2x.gif" afterPath="$PROJECT_DIR$/src/img/helpers/fancybox_loading@2x.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/fancybox_overlay.png" afterPath="$PROJECT_DIR$/src/img/helpers/fancybox_overlay.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/fancybox_sprite.png" afterPath="$PROJECT_DIR$/src/img/helpers/fancybox_sprite.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/helpers/fancybox_sprite@2x.png" afterPath="$PROJECT_DIR$/src/img/helpers/fancybox_sprite@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag-de.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag-de.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag-en.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag-en.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag-es.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag-es.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag-fr.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag-fr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag-ru.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag-ru.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_abh.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_abh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_afgan.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_afgan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_alban.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_alban.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_argen.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_argen.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_arm.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_arm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_austr.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_austr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_azer.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_azer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_bangl.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_bangl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_belg.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_belg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_belrus.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_belrus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_bolgar.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_bolgar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_brazil.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_brazil.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_camb.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_camb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_can.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_can.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_chec.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_chec.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_chilli.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_chilli.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_china.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_china.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_congo.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_congo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_croat.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_croat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_cuba.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_cuba.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_cypr.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_cypr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_den.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_den.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_egypt.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_egypt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_eng.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_eng.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_esp.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_esp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_ethiop.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_ethiop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_fin.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_fin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_fran.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_fran.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_germ.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_germ.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_greece.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_greece.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_hungr.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_hungr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_india.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_india.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_indon.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_indon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_israel.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_israel.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_it.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_it.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_japan.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_japan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_jordan.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_jordan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_kazah.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_kazah.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_kirg.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_kirg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_korea.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_korea.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_laos.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_laos.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_lb.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_lb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_luxem.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_luxem.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_malays.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_malays.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_malta.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_malta.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_maroc.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_maroc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_mex.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_mex.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_mold.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_mold.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_momteneg.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_momteneg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_mongol.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_mongol.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_nepal.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_nepal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_nicar.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_nicar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_oae.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_oae.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_pakis.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_pakis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_pales.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_pales.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_peru.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_peru.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_poland.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_poland.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_portu.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_portu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_rum.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_rum.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_rus.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_rus.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_serb.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_serb.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_siria.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_siria.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_slovak.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_slovak.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_sloven.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_sloven.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_south_afr.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_south_afr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_sri_l.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_sri_l.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_sweez.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_sweez.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_tadji.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_tadji.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_tunis.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_tunis.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_tur.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_tur.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_turkm.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_turkm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_uj_osetia.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_uj_osetia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_ukraine.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_ukraine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_usa.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_usa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_uzbek.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_uzbek.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_venesu.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_venesu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_vietn.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_vietn.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/flag/flag_zambia.png" afterPath="$PROJECT_DIR$/src/img/icons/flag/flag_zambia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-active.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-active@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-active@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-active@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-active@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-hover.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-hover@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-hover@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-hover@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-hover@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-active.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-active@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-active@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-active@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-active@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt@2x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt@2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt@3x.png" afterPath="$PROJECT_DIR$/src/img/icons/form/yt@3x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/govenrment-logo.png" afterPath="$PROJECT_DIR$/src/img/icons/govenrment-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-close-black-24-px.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-close-black-24-px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-copyright-black-24-px.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-copyright-black-24-px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-error-outline-black-24-px.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-error-outline-black-24-px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-glasses.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-glasses.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-keyboard-arrow-right-black-24-px.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-keyboard-arrow-right-black-24-px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-menu.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-pin-drop-black-24-px.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-pin-drop-black-24-px.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-search-white.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-search-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-search.png" afterPath="$PROJECT_DIR$/src/img/icons/ic-search.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/kremlin-ru-logo.png" afterPath="$PROJECT_DIR$/src/img/icons/kremlin-ru-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/map.png" afterPath="$PROJECT_DIR$/src/img/icons/map.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/mid-logo.png" afterPath="$PROJECT_DIR$/src/img/icons/mid-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo-inv.png" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo-inv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo-white.png" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo.png" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-blue.png" afterPath="$PROJECT_DIR$/src/img/icons/social/fb-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/fb-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-blue.png" afterPath="$PROJECT_DIR$/src/img/icons/social/inst-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/inst-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-blue.png" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-blue.png" afterPath="$PROJECT_DIR$/src/img/icons/social/vk-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/vk-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-blue.png" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-blue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-white.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img.jpg" afterPath="$PROJECT_DIR$/src/img/main_banner_img.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" afterPath="$PROJECT_DIR$/src/img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/frolov.png" afterPath="$PROJECT_DIR$/src/img/manage/frolov.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/glebova.png" afterPath="$PROJECT_DIR$/src/img/manage/glebova.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/guzhelya.png" afterPath="$PROJECT_DIR$/src/img/manage/guzhelya.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/kruppo.png" afterPath="$PROJECT_DIR$/src/img/manage/kruppo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/radkov.png" afterPath="$PROJECT_DIR$/src/img/manage/radkov.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/manage/zhivihina.png" afterPath="$PROJECT_DIR$/src/img/manage/zhivihina.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-11/img01.png" afterPath="$PROJECT_DIR$/src/img/news/2016-02-11/img01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-11/img02.png" afterPath="$PROJECT_DIR$/src/img/news/2016-02-11/img02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-11/img03.png" afterPath="$PROJECT_DIR$/src/img/news/2016-02-11/img03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-26/img_01.png" afterPath="$PROJECT_DIR$/src/img/news/2016-02-26/img_01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-26/img_02.png" afterPath="$PROJECT_DIR$/src/img/news/2016-02-26/img_02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-27/img_01.jpg" afterPath="$PROJECT_DIR$/src/img/news/2016-02-27/img_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/news/2016-02-27/img_02.jpg" afterPath="$PROJECT_DIR$/src/img/news/2016-02-27/img_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_01.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_02.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_03.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_04.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_05.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_06.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_07.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_07.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/projects/img_08.jpg" afterPath="$PROJECT_DIR$/src/img/projects/img_08.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/russian_culture/img_01.jpg" afterPath="$PROJECT_DIR$/src/img/russian_culture/img_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/russian_culture/img_02.jpg" afterPath="$PROJECT_DIR$/src/img/russian_culture/img_02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/russian_culture/rs-project-default.png" afterPath="$PROJECT_DIR$/src/img/russian_culture/rs-project-default.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/russian_culture/ru_cinema/img_01.jpg" afterPath="$PROJECT_DIR$/src/img/russian_culture/ru_cinema/img_01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/var2/dom_moskvy_1.png" afterPath="$PROJECT_DIR$/src/img/var2/dom_moskvy_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/var2/var2_activity_soot.png" afterPath="$PROJECT_DIR$/src/img/var2/var2_activity_soot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage.html" afterPath="$PROJECT_DIR$/public/about_manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage_detail.html" afterPath="$PROJECT_DIR$/public/about_manage_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs.html" afterPath="$PROJECT_DIR$/public/about_programs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_rulang.html" afterPath="$PROJECT_DIR$/public/about_programs_rulang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_strategy.html" afterPath="$PROJECT_DIR$/public/about_programs_strategy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_structure.html" afterPath="$PROJECT_DIR$/public/about_structure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_var2.html" afterPath="$PROJECT_DIR$/public/about_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity.html" afterPath="$PROJECT_DIR$/public/activity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_cemetery.html" afterPath="$PROJECT_DIR$/public/activity_cemetery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_diplomacy.html" afterPath="$PROJECT_DIR$/public/activity_diplomacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_edu.html" afterPath="$PROJECT_DIR$/public/activity_edu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_integration.html" afterPath="$PROJECT_DIR$/public/activity_integration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_international.html" afterPath="$PROJECT_DIR$/public/activity_international.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_rulang.html" afterPath="$PROJECT_DIR$/public/activity_rulang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_smp.html" afterPath="$PROJECT_DIR$/public/activity_smp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_soot.html" afterPath="$PROJECT_DIR$/public/activity_soot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_soot_var2.html" afterPath="$PROJECT_DIR$/public/activity_soot_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_var2.html" afterPath="$PROJECT_DIR$/public/activity_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons.html" afterPath="$PROJECT_DIR$/public/anons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail.html" afterPath="$PROJECT_DIR$/public/anonsDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail_var2.html" afterPath="$PROJECT_DIR$/public/anonsDetail_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons_var2.html" afterPath="$PROJECT_DIR$/public/anons_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts.html" afterPath="$PROJECT_DIR$/public/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_callback.html" afterPath="$PROJECT_DIR$/public/contacts_callback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_center.html" afterPath="$PROJECT_DIR$/public/contacts_center.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld.html" afterPath="$PROJECT_DIR$/public/contacts_inworld.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld_rome.html" afterPath="$PROJECT_DIR$/public/contacts_inworld_rome.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_var2.html" afterPath="$PROJECT_DIR$/public/contacts_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index_var2.html" afterPath="$PROJECT_DIR$/public/index_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/news.html" afterPath="$PROJECT_DIR$/public/news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail.html" afterPath="$PROJECT_DIR$/public/newsDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail_var2.html" afterPath="$PROJECT_DIR$/public/newsDetail_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/news_var2.html" afterPath="$PROJECT_DIR$/public/news_var2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/searchResult.html" afterPath="$PROJECT_DIR$/public/searchResult.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about.jade" afterPath="$PROJECT_DIR$/src/about.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_manage.jade" afterPath="$PROJECT_DIR$/src/about_manage.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_manage_detail.jade" afterPath="$PROJECT_DIR$/src/about_manage_detail.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs.jade" afterPath="$PROJECT_DIR$/src/about_programs.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs_rulang.jade" afterPath="$PROJECT_DIR$/src/about_programs_rulang.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs_strategy.jade" afterPath="$PROJECT_DIR$/src/about_programs_strategy.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_structure.jade" afterPath="$PROJECT_DIR$/src/about_structure.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity.jade" afterPath="$PROJECT_DIR$/src/activity.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_cemetery.jade" afterPath="$PROJECT_DIR$/src/activity_cemetery.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_diplomacy.jade" afterPath="$PROJECT_DIR$/src/activity_diplomacy.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_edu.jade" afterPath="$PROJECT_DIR$/src/activity_edu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_integration.jade" afterPath="$PROJECT_DIR$/src/activity_integration.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_international.jade" afterPath="$PROJECT_DIR$/src/activity_international.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_rulang.jade" afterPath="$PROJECT_DIR$/src/activity_rulang.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_russianCulture.jade" afterPath="$PROJECT_DIR$/src/activity_russianCulture.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade" afterPath="$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_smp.jade" afterPath="$PROJECT_DIR$/src/activity_smp.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_soot.jade" afterPath="$PROJECT_DIR$/src/activity_soot.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anons.jade" afterPath="$PROJECT_DIR$/src/anons.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anonsDetail.jade" afterPath="$PROJECT_DIR$/src/anonsDetail.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts.jade" afterPath="$PROJECT_DIR$/src/contacts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_callback.jade" afterPath="$PROJECT_DIR$/src/contacts_callback.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_center.jade" afterPath="$PROJECT_DIR$/src/contacts_center.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_inworld.jade" afterPath="$PROJECT_DIR$/src/contacts_inworld.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_inworld_rome.jade" afterPath="$PROJECT_DIR$/src/contacts_inworld_rome.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/check-off.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/check-off.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/check-on.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/check-on.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off-disabled.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-off.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-off.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on-disabled.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/radio-on.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/radio-on.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-active.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-active.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-hover.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-hover.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-active.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-active.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white-hover.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/form/yt.svg" afterPath="$PROJECT_DIR$/src/img/icons/form/yt.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/govenrment-logo.svg" afterPath="$PROJECT_DIR$/src/img/icons/govenrment-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-arrow-back.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-arrow-back.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-arrow-forward.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-arrow-forward.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-close-black-24-px.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-close-black-24-px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-copyright-black-24-px.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-copyright-black-24-px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-error-outline-black-24-px.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-error-outline-black-24-px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-file-download.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-file-download.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-glasses.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-glasses.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-info-outline.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-info-outline.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-keyboard-arrow-right-black-24-px.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-keyboard-arrow-right-black-24-px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-menu.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-menu.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-pin-drop-black-24-px.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-pin-drop-black-24-px.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-search-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-search-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/ic-search.svg" afterPath="$PROJECT_DIR$/src/img/icons/ic-search.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/index.html" afterPath="$PROJECT_DIR$/src/img/icons/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/kremlin-ru-logo.svg" afterPath="$PROJECT_DIR$/src/img/icons/kremlin-ru-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/map.svg" afterPath="$PROJECT_DIR$/src/img/icons/map.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/mid-logo.svg" afterPath="$PROJECT_DIR$/src/img/icons/mid-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo-inv.svg" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo-inv.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/rs-logo.svg" afterPath="$PROJECT_DIR$/src/img/icons/rs-logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-blue.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/fb-blue.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/fb-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-blue.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/inst-blue.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/inst-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-blue.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-blue.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-blue.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/vk-blue.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/vk-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-blue.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-blue.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-white.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_bxslider.jade" afterPath="$PROJECT_DIR$/src/includes/_bxslider.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_carousel.jade" afterPath="$PROJECT_DIR$/src/includes/_carousel.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_fancybox.jade" afterPath="$PROJECT_DIR$/src/includes/_fancybox.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_footer.jade" afterPath="$PROJECT_DIR$/src/includes/_footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_formelements.jade" afterPath="$PROJECT_DIR$/src/includes/_formelements.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_header.jade" afterPath="$PROJECT_DIR$/src/includes/_header.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_mainmenu.jade" afterPath="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_mixins.jade" afterPath="$PROJECT_DIR$/src/includes/_mixins.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_sidemenu.jade" afterPath="$PROJECT_DIR$/src/includes/_sidemenu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/template.jade" afterPath="$PROJECT_DIR$/src/includes/template.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/news.jade" afterPath="$PROJECT_DIR$/src/news.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newsDetail.jade" afterPath="$PROJECT_DIR$/src/newsDetail.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/searchResult.jade" afterPath="$PROJECT_DIR$/src/searchResult.jade" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +367,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -33,72 +376,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="searchResult.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/searchResult.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="152" column="29" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
-              <folding>
-                <element signature="n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#block#1;n#!!top" expanded="false" />
-                <element signature="n#footer#1;n#block#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="e#570#716#0" expanded="false" />
-                <element signature="e#727#1687#0" expanded="false" />
-                <element signature="e#1700#1771#0" expanded="false" />
-                <element signature="e#1782#1996#0" expanded="false" />
-                <element signature="e#3311#3730#0" expanded="false" />
-                <element signature="e#3737#3842#0" expanded="false" />
-                <element signature="e#3857#3943#0" expanded="false" />
-                <element signature="e#3954#4075#0" expanded="false" />
-                <element signature="e#5597#6716#0" expanded="false" />
-                <element signature="e#6729#7668#0" expanded="false" />
-                <element signature="e#11159#13962#0" expanded="false" />
-                <element signature="e#21245#21322#0" expanded="false" />
-                <element signature="e#28179#28747#0" expanded="false" />
-                <element signature="e#32117#33688#0" expanded="false" />
-                <element signature="e#37170#38011#0" expanded="false" />
-                <element signature="e#38044#38585#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="423">
+              <caret line="2467" column="25" lean-forward="false" selection-start-line="2467" selection-start-column="25" selection-end-line="2467" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_navbar.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/includes/_navbar.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+              <folding>
+                <element signature="n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3018576">
-              <caret line="394" column="23" selection-start-line="394" selection-start-column="23" selection-end-line="394" selection-end-column="23" />
+            <state relative-caret-position="552">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#div#2;n#block#2;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="children.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/children.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="children_art.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/children_art.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="children_art_aviamodel.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/children_art_aviamodel.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_detail.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/article_detail.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="81" column="77" lean-forward="false" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts_callback.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="338" column="19" lean-forward="false" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/account.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -113,6 +484,46 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stepid</find>
+      <find>$orange-li</find>
+      <find>$orange-lig</find>
+      <find>$orange-light</find>
+      <find>$orange-lighte</find>
+      <find>$orange-lighter</find>
+      <find>$orangeer</find>
+      <find>$orangee</find>
+      <find>$orange</find>
+      <find>$orange-</find>
+      <find>$orange-d</find>
+      <find>$orange-da</find>
+      <find>$orange-dark</find>
+      <find>$orange-dar</find>
+      <find>$or</find>
+      <find>$o</find>
+      <find>$</find>
+      <find>$l</find>
+      <find>$li</find>
+      <find>$lig</find>
+      <find>$light</find>
+      <find>font-fam</find>
+      <find>font-family</find>
+      <find>blindVersion</find>
+      <find>open</find>
+      <find>articleTe</find>
+      <find>chess</find>
+      <find>section</find>
+      <find>.newsBlock</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@ptserif</replace>
+      <replace>$orange</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/Parallels/Development/parallels.local</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,23 +536,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css" />
-        <option value="$PROJECT_DIR$/src/includes/_header_var2.jade" />
-        <option value="$PROJECT_DIR$/src/about_var2.jade" />
-        <option value="$PROJECT_DIR$/src/activity_var2.jade" />
-        <option value="$PROJECT_DIR$/src/anons_var2.jade" />
-        <option value="$PROJECT_DIR$/src/anonsDetail_var2.jade" />
-        <option value="$PROJECT_DIR$/src/news_var2.jade" />
-        <option value="$PROJECT_DIR$/src/newsDetail_var2.jade" />
-        <option value="$PROJECT_DIR$/src/includes/_footer_var2.jade" />
-        <option value="$PROJECT_DIR$/src/contacts_var2.jade" />
-        <option value="$PROJECT_DIR$/src/index_var2.jade" />
-        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss" />
         <option value="$PROJECT_DIR$/src/includes/template.jade" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/css/bootstrap-datepicker.css" />
-        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
-        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/src/about.jade" />
         <option value="$PROJECT_DIR$/src/about_manage.jade" />
         <option value="$PROJECT_DIR$/src/about_manage_detail.jade" />
@@ -173,30 +570,49 @@
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
         <option value="$PROJECT_DIR$/src/searchResult.jade" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
-        <option value="$PROJECT_DIR$/src/css/style.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/src/includes/_header_var2.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_footer.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_sidebar.jade" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_navbar.jade" />
         <option value="$PROJECT_DIR$/src/index.jade" />
+        <option value="$PROJECT_DIR$/src/children_art_aviamodel.jade" />
+        <option value="$PROJECT_DIR$/src/children.jade" />
+        <option value="$PROJECT_DIR$/src/children_art.jade" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
+        <option value="$PROJECT_DIR$/src/article_detail.jade" />
+        <option value="$PROJECT_DIR$/src/account.jade" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1118" />
-    <option name="height" value="1047" />
+    <option name="x" value="40" />
+    <option name="y" value="23" />
+    <option name="width" value="1400" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -223,16 +639,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -248,128 +655,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
+              <option name="myItemId" value="uchebakz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uchebakz.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
+              <option name="myItemId" value="uchebakz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="uchebakz.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
+              <option name="myItemId" value="uchebakz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="uchebakz.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
+              <option name="myItemId" value="uchebakz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="uchebakz.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rossotrud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,21 +731,53 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WebServers\home\rossotrud" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/includes" />
       <recent name="C:\WebServers\home\rossotrud\src" />
       <recent name="C:\WebServers\home\rossotrud\src\includes" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WebServers\home\rossotrud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -408,7 +791,12 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -417,12 +805,14 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter />
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
@@ -435,7 +825,9 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -444,32 +836,40 @@
       <changelist id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="" />
       <created>1460964839704</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1460964839704</updated>
+      <workItem from="1494401685722" duration="54000" />
+      <workItem from="1494401756910" duration="3778000" />
+      <workItem from="1494407550040" duration="92000" />
+      <workItem from="1494832900836" duration="154000" />
+      <workItem from="1495096045968" duration="27139000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31217000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1118" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="40" y="23" width="1400" height="877" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1584327" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19661267" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15426695" sideWeight="0.503876" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312102" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23060109" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1834395" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -492,6 +892,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -508,385 +911,374 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5136876">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.103448">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9339775">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27863777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index_var2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5259259">
-          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/bootstrap-datepicker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.965517">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5217391">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16103059">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3103447">
-          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2025723">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_var2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.7311826">
-          <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.096774">
-          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_manage.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.387096">
-          <caret line="310" column="19" selection-start-line="310" selection-start-column="19" selection-end-line="310" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_manage_detail.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.451612">
-          <caret line="351" column="19" selection-start-line="351" selection-start-column="19" selection-end-line="351" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.67742">
-          <caret line="313" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs_rulang.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.258064">
-          <caret line="291" column="19" selection-start-line="291" selection-start-column="19" selection-end-line="291" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs_strategy.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.258064">
-          <caret line="280" column="19" selection-start-line="280" selection-start-column="19" selection-end-line="280" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_structure.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25736433">
-          <caret line="274" column="29" selection-start-line="274" selection-start-column="29" selection-end-line="274" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6989247">
-          <caret line="324" column="19" selection-start-line="324" selection-start-column="19" selection-end-line="324" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_cemetery.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3686636">
-          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_diplomacy.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324">
-          <caret line="276" column="19" selection-start-line="276" selection-start-column="19" selection-end-line="276" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="276" column="19" lean-forward="false" selection-start-line="276" selection-start-column="19" selection-end-line="276" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_edu.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.797235">
-          <caret line="287" column="15" selection-start-line="287" selection-start-column="15" selection-end-line="287" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="287" column="15" lean-forward="false" selection-start-line="287" selection-start-column="15" selection-end-line="287" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_integration.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17751479">
-          <caret line="132" column="36" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_international.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5029586">
-          <caret line="282" column="19" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="282" column="19" lean-forward="false" selection-start-line="282" selection-start-column="19" selection-end-line="282" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_rulang.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35502958">
-          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="132" column="7" lean-forward="false" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_russianCulture.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8156682">
-          <caret line="459" column="19" selection-start-line="459" selection-start-column="19" selection-end-line="459" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6113671">
-          <caret line="427" column="19" selection-start-line="427" selection-start-column="19" selection-end-line="427" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="459" column="19" lean-forward="false" selection-start-line="459" selection-start-column="19" selection-end-line="459" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_smp.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308">
-          <caret line="277" column="15" selection-start-line="277" selection-start-column="15" selection-end-line="277" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="277" column="15" lean-forward="false" selection-start-line="277" selection-start-column="15" selection-end-line="277" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_soot.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6804734">
-          <caret line="286" column="19" selection-start-line="286" selection-start-column="19" selection-end-line="286" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="286" column="19" lean-forward="false" selection-start-line="286" selection-start-column="19" selection-end-line="286" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_soot_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3210059">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/anonsDetail_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0295858">
-          <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anons.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37699682">
-          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anonsDetail.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38019168">
-          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="178" column="14" lean-forward="false" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5222734">
-          <caret line="968" column="19" selection-start-line="968" selection-start-column="19" selection-end-line="968" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324">
-          <caret line="338" column="19" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="968" column="19" lean-forward="false" selection-start-line="968" selection-start-column="19" selection-end-line="968" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_center.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15360983">
-          <caret line="412" column="19" selection-start-line="412" selection-start-column="19" selection-end-line="412" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="412" column="19" lean-forward="false" selection-start-line="412" selection-start-column="19" selection-end-line="412" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_inworld.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4608295">
-          <caret line="952" column="19" selection-start-line="952" selection-start-column="19" selection-end-line="952" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="952" column="19" lean-forward="false" selection-start-line="952" selection-start-column="19" selection-end-line="952" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_inworld_rome.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5872781">
-          <caret line="320" column="19" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="320" column="19" lean-forward="false" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/news.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308">
-          <caret line="419" column="19" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="419" column="19" lean-forward="false" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newsDetail.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35502958">
-          <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="133" column="40" lean-forward="false" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" />
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
+    <entry file="file://$PROJECT_DIR$/src/searchResult.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1053" column="7" selection-start-line="1053" selection-start-column="7" selection-end-line="1053" selection-end-column="7" />
+        <state relative-caret-position="2584">
+          <caret line="152" column="29" lean-forward="false" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13536379">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="139">
+          <caret line="0" column="377386" lean-forward="false" selection-start-line="0" selection-start-column="377386" selection-end-line="0" selection-end-column="377386" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.931034">
-          <caret line="107" column="71" selection-start-line="102" selection-start-column="2" selection-end-line="107" selection-end-column="71" />
-        </state>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40943396">
-          <caret line="115" column="45" selection-start-line="115" selection-start-column="45" selection-end-line="115" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/searchResult.jade">
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="29" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#footer#1;n#block#1;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/npm-debug.log" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#570#716#0" expanded="false" />
-            <element signature="e#727#1687#0" expanded="false" />
-            <element signature="e#1700#1771#0" expanded="false" />
-            <element signature="e#1782#1996#0" expanded="false" />
-            <element signature="e#3311#3730#0" expanded="false" />
-            <element signature="e#3737#3842#0" expanded="false" />
-            <element signature="e#3857#3943#0" expanded="false" />
-            <element signature="e#3954#4075#0" expanded="false" />
-            <element signature="e#5597#6716#0" expanded="false" />
-            <element signature="e#6729#7668#0" expanded="false" />
-            <element signature="e#11159#13962#0" expanded="false" />
-            <element signature="e#21245#21322#0" expanded="false" />
-            <element signature="e#28179#28747#0" expanded="false" />
-            <element signature="e#32117#33688#0" expanded="false" />
-            <element signature="e#37170#38011#0" expanded="false" />
-            <element signature="e#38044#38585#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141831">
+          <caret line="8343" column="25" lean-forward="false" selection-start-line="8343" selection-start-column="25" selection-end-line="8343" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_header_var2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="81" lean-forward="false" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_cemetery.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="132" column="40" lean-forward="false" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_mixins.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_sidebar.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="704" column="52" lean-forward="false" selection-start-line="704" selection-start-column="52" selection-end-line="704" selection-end-column="52" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anons.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="132" column="40" lean-forward="false" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="249" column="91" lean-forward="true" selection-start-line="247" selection-start-column="20" selection-end-line="249" selection-end-column="91" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#nav#1;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_mainmenu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anonsDetail.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="40" lean-forward="false" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3018576">
-          <caret line="394" column="23" selection-start-line="394" selection-start-column="23" selection-end-line="394" selection-end-column="23" />
+        <state relative-caret-position="552">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#block#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_navbar.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding>
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/children_art_aviamodel.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/children.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="58" column="50" lean-forward="true" selection-start-line="58" selection-start-column="50" selection-end-line="58" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/children_art.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="2467" column="25" lean-forward="false" selection-start-line="2467" selection-start-column="25" selection-end-line="2467" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/article_detail.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="81" column="77" lean-forward="false" selection-start-line="81" selection-start-column="77" selection-end-line="81" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="338" column="19" lean-forward="false" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/account.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding />
         </state>
       </provider>

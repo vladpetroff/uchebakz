@@ -1,0 +1,89 @@
+extends includes/template
+
+block title
+	title Для детей
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				section.projects.block
+					h1 Для детей
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_art.html")
+									img(src="./img/activity/img_03.png", alt="Творчество")
+								p Творчество
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_devel.html")
+									img(src="./img/activity/img_01.png", alt="Развитие ребенка")
+								p Развитие ребенка
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_sport.html")
+									img(src="./img/activity/img_09.png", alt="Спорт")
+								p Спорт
+
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_dance.html")
+									img(src="./img/activity/img_04.png", alt="Танцы")
+								p Танцы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_lang.html")
+									img(src="./img/activity/img_02.png", alt="Языковые курсы")
+								p Языковые курсы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_psy.html")
+									img(src="./img/activity/img_06.png", alt="Детский психолог")
+								p Детский психолог
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="children_long.html")
+									img(src="./img/activity/img_05.png", alt="Продленка")
+								p Продленка
+
+
+
+	footer.row.visible-sm.visible-xs
+		.container
+			.row
+				.col-xs-12
+					h4 Присоединяйтесь к нам #[br.visible-xs]в социальных сетях:
+					.social
+						a(href="javascript:;").fb
+						a(href="javascript:;").vk
+						a(href="javascript:;").inst
+						a(href="javascript:;").yt
+						a(href="javascript:;").tw
+
+						hr
+					p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
+
+					p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+
+
+	include includes/_footer
+
+

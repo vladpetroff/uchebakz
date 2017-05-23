@@ -1,0 +1,97 @@
+extends includes/template
+
+block title
+	title Анонсы
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+					li: a(href="children.html") Для детей
+					li: a(href="children_art.html") Творчество
+
+				section.anons.inner
+					h1 Авиамоделирование
+
+					.row
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_01.jpg", alt="")
+								.articleText
+									h2 Авиамоделирование
+									time +7(727)354–45–70 +7(747)735–72–21
+									h3 Kazspace - Инженерно-Космическая школа
+									h4 Школа космонавтов «KAZSPACE» обучает детей в возрасте от 7 лет моделированию прототипов космических аппаратов, космического пространства и многого другого.
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_02.jpg", alt="")
+								.articleText
+									h2 Актерское мастерство
+									time
+									h3 BALAPAN club - Детский центр развития
+									h4 Для Ваших детей представлены следующие программы: "Малыш Балапан" - раннее развитие (занятия на казахском и русском языках) с 1 года до 3 лет; "Почемучка Балапан" - развивающие занятия для детей с 3-х до 5-и лет на казахском и русском языках; Разв ...
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_03.jpg", alt="")
+								.articleText
+									h2 Космонавтика
+									time
+									h3 Экспериментум Алматы
+									h4 Научно-технические кружки для детей. Научно-познавательные программы для детей. Продленка для школьников. Подготовка к школе. Научно-познавательные программы Вулканология Химия - волшебство своими руками Программа "Реактивное движение. Запускае ...
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_04.jpg", alt="")
+								.articleText
+									h2 Курсы радиоведущих и диджеев
+									time
+									h3 A-school - Академия Кино и Шоу - Бизнеса
+									h4 Мы раскроем Ваши таланты и поможем реализовать творческие мечты. — актерское мастерство — ораторское мастерство — вокал — создание видеороликов — съемки клипов — съемки короткометражных фильмов — съемки телепрограмм — основы режиссуры кино и тв ...
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_05.jpg", alt="")
+								.articleText
+									h2 Рисование, художественные курсы
+									time +7(747)102-44-19
+									h3 Изостудия «Клякса»
+									h4 Приглашаем детей 4-12 лет на занятия в детскую изостудию "Клякса"! Рисование – это один из способов познания мира. Когда ребенок рисует, он учится рассуждать, сравнивать и принимать самостоятельные решения! Также развиваются наблюдательность, прост
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="article_detail.html")
+										img(src="./img/announcements/img_06.jpg", alt="")
+								.articleText
+									h2 Ротототехника и конструирование
+									time
+									h3 Advance Center
+									h4 Advance – первая в Казахстане сеть центров интеллектуального развития, предлагающая уникальные программы по обучению детей в возрасте от 3 до 17 лет. В наших центрах, ваш ребёнок может обучиться следующим программам: МЕНТАЛЬНАЯ АРИФМЕТИКА (4-17 ЛЕТ) ...
+
+
+
+	include includes/_footer
+
+
