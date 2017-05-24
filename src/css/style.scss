@@ -1311,12 +1311,12 @@ header{
         display: inline-block;
       }
       img{
-        width:63px;
-        height:63px;
+        width:100px;
+        height:auto;
       }
     }
     .headerText{
-      width:290px;
+      width:180px;
       h1{
         font-family: $font-family-narrow;
         font-weight:bold;
@@ -1329,7 +1329,7 @@ header{
         margin-bottom: 3px;
       }
       p{
-        font-size: $font-size-small;
+        font-size: $font-size-small +1;
         line-height: 1.2;
         margin: 0;
       }
@@ -2860,12 +2860,6 @@ footer{
           a{
             margin-left: 12px;
           }
-        }
-      }
-      .headerLogo{
-        img{
-          width:80px;
-          height:80px;
         }
       }
       .headerSubscr{

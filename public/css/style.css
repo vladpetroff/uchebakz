@@ -3770,9 +3770,9 @@ tbody.collapse.in {
     display: inline-block;
     padding: 0px;
     line-height: 20px;
-    height: 20px;
-    width: 20px;
-    margin: 18px 10px; }
+    height: auto;
+    width: 50px;
+    margin: 14px 10px; }
     .navbar a.logo img {
       width: 100%;
       height: auto;
@@ -7145,10 +7145,10 @@ header {
       header .headerContent .headerLogo a {
         display: inline-block; }
       header .headerContent .headerLogo img {
-        width: 63px;
-        height: 63px; }
+        width: 100px;
+        height: auto; }
     header .headerContent .headerText {
-      width: 290px; }
+      width: 180px; }
       header .headerContent .headerText h1 {
         font-family: "PT Sans Narrow", sans-serif;
         font-weight: bold;
@@ -7160,7 +7160,7 @@ header {
         margin-top: 0;
         margin-bottom: 3px; }
       header .headerContent .headerText p {
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1.2;
         margin: 0; }
     header .headerContent .headerSubscr .form-control {
@@ -8193,9 +8193,6 @@ footer {
       letter-spacing: 1.8px; }
   header .headerContent .headerSocial .social a {
     margin-left: 12px; }
-  header .headerContent .headerLogo img {
-    width: 80px;
-    height: 80px; }
   header .headerContent .headerSubscr .form-control {
     width: 75%; }
   header .headerContent .headerContact a {
