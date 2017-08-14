@@ -239,7 +239,7 @@ section{
         vertical-align: top;
         padding-right: 10px;
         img {
-          width: 76px;
+          width: 138px;
           height: 92px;
           display: block;
         }
@@ -1871,21 +1871,20 @@ footer{
         .articleImg{
           padding-right: 0;
           img{
-            width:173px;
-            height:183px;
+            width:140px;
+            height:93px;
           }
         }
         .articleText{
-          padding: 15px 20px;
+          padding: 10px;
           h2{
-            font-size:16px;
-            line-height: 1.25em;
+            font-size:15px;
+            line-height: 1.1em;
             display: inline-block;
-            min-height: 40px;
-            width:355px;
+            min-height: 0px;
           }
           h3{
-            font-size:20px;
+            font-size:15px;
             line-height: 1.2em;
             margin-bottom: 10px;
           }
@@ -1939,7 +1938,7 @@ footer{
         margin-bottom: 8px;
         img{
           width:100%;
-          height:202px;
+          height:150px;
         }
         p{
           height:40px;
@@ -1970,29 +1969,11 @@ footer{
 }
 
 
+
+
+
 // 992px and up
 @media (min-width: $screen-md-min) {
-  .bannerBlock{
-    a{
-      height:385px;
-    }
-  }
-
-  section{
-    &.news{
-      article{
-        img{
-          width:174px;
-          height:104px;
-        }
-      }
-    }
-  }
-}
-
-
-// 1200px and up
-@media (min-width: $screen-lg-min) {
   .readmore{
     text-align: center;
   }
@@ -2092,7 +2073,7 @@ footer{
             }
           }
           .articleImg img {
-            width: 212px;
+            width: 336px;
             height: 224px;
           }
         }
@@ -2111,10 +2092,6 @@ footer{
         time{
           margin-bottom: 8px;
           display: inline-block;
-        }
-        img{
-          width:238px;
-          height:142px;
         }
       }
       .news{
@@ -2845,6 +2822,49 @@ footer{
 }
 
 
+// 992px and up to 1200px
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .bannerBlock{
+    a{
+      height:385px;
+    }
+  }
+
+  .navbar-desktop .navbar-nav > li > a {
+    font-size:1.1em;
+  }
+
+  section.projects.block{
+    article{
+      height:190px;
+      p {
+        font-size:1em;
+      }
+      img{
+        height:126px;
+      }
+    }
+  }
+
+  section.anons.inner{
+    article {
+      .articleImg img{
+        width:150px;
+        height:100px;
+      }
+      .articleText{
+        h2{
+          min-height:0px;
+        }
+        h3{
+          margin-top:0px;
+        }
+      }
+    }
+  }
+}
+
+
 @media (min-width: 1440px) {
   header{
     .headerContent{
@@ -2913,14 +2933,6 @@ footer{
               font-size:20px;
             }
           }
-        }
-      }
-    }
-    &.news{
-      article{
-        img{
-          width:288px;
-          height:172px;
         }
       }
     }
