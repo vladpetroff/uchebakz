@@ -4122,7 +4122,7 @@ tbody.collapse.in {
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
     .navbar-default .navbar-nav ul {
       display: none;
-      padding-left: 16px; }
+      padding-left: 10px; }
     .navbar-default .navbar-nav a:focus {
       background: none !important; }
     .navbar-default .navbar-nav a:active {
@@ -6347,9 +6347,10 @@ section.anons article {
     vertical-align: top;
     padding-right: 10px; }
     section.anons article .articleImg img {
-      width: 138px;
-      height: 92px;
-      display: block; }
+      width: 100px;
+      height: auto;
+      display: block;
+      padding: 10px; }
   section.anons article .articleText {
     display: table-cell;
     vertical-align: top;
@@ -6435,6 +6436,14 @@ section.projects {
     font-size: 16px;
     line-height: 1.3;
     margin-top: 5px; }
+  section.projects.block.inner article a {
+    display: inline-table;
+    width: 100%;
+    height: 100%; }
+    section.projects.block.inner article a p {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 10px; }
   section.projects article:hover {
     cursor: pointer;
     background-color: #fff3e0;
@@ -7406,7 +7415,6 @@ footer {
     margin-bottom: 7px; }
   section.projects article a {
     height: auto;
-    background-color: #E0E0E0;
     display: block; }
     section.projects article a img {
       height: auto; }
@@ -7501,8 +7509,8 @@ footer {
     section.anons article .articleImg {
       padding-right: 0; }
       section.anons article .articleImg img {
-        width: 140px;
-        height: 93px; }
+        width: 120px;
+        height: auto; }
     section.anons article .articleText {
       padding: 10px; }
       section.anons article .articleText h2 {
@@ -7544,6 +7552,10 @@ footer {
       section.news article .news p {
         font-size: 16px;
         line-height: 1.25em; }
+  section.projects.inner article p {
+    height: 100px;
+    margin: 0px;
+    padding: 15px; }
   section.projects article {
     margin-bottom: 8px; }
     section.projects article img {
@@ -7634,8 +7646,8 @@ footer {
     section.anons.inner article .articleText time {
       line-height: 1.3; }
     section.anons.inner article .articleImg img {
-      width: 336px;
-      height: 224px; }
+      width: 220px;
+      height: auto; }
   section.news {
     margin-bottom: 0px; }
     section.news h2 {
@@ -7666,8 +7678,8 @@ footer {
     section.projects.block article {
       height: 235px; }
       section.projects.block article p {
-        font-size: 1.43em;
-        line-height: 1.2;
+        font-size: 1.25em;
+        line-height: 1.1;
         padding: 16px 16px 0px;
         margin-top: 0; }
       section.projects.block article img {
@@ -8189,8 +8201,8 @@ footer {
     section.projects.block article img {
       height: 126px; }
   section.anons.inner article .articleImg img {
-    width: 150px;
-    height: 100px; }
+    width: 200px;
+    height: auto; }
   section.anons.inner article .articleText h2 {
     min-height: 0px; }
   section.anons.inner article .articleText h3 {
@@ -8211,7 +8223,7 @@ footer {
     font-size: 16px; }
   section.anons article .articleImg img {
     width: 212px;
-    height: 224px; }
+    height: auto; }
   section.anons article .articleText h2 {
     line-height: 1.3;
     min-height: 40px; }

@@ -1,0 +1,39 @@
+extends includes/template
+
+block title
+	title Обучение за рубежом | Учеба.кз
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				section.projects.block
+					h1 Обучение за рубежом
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="foreign_school.html")
+									img(src="./img/projects/foreign/foreign_school.jpg", alt="Школы, гимназии, лицеи")
+								p Школы, гимназии, лицеи
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="foreign_university.html")
+									img(src="./img/projects/foreign/foreign_university.jpg", alt="Институты, университеты")
+								p Институты, университеты
+
+
+	include includes/_footer
+
+

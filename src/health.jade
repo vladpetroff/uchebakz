@@ -1,0 +1,75 @@
+extends includes/template
+
+block title
+	title Здоровье и творчество | Учеба.кз
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				section.projects.block
+					h1 Здоровье и творчество
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_beauty.html")
+									img(src="./img/projects/health/health_beauty.jpg", alt="Косметология, красота")
+								p Косметология, красота
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_medicine.html")
+									img(src="./img/projects/health/health_medicine.jpg", alt="Здоровье и медицина")
+								p Здоровье и медицина
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_music.html")
+									img(src="./img/projects/health/health_music.jpg", alt="Музыкальные школы и консерватории, училища")
+								p Музыкальные школы и консерватории, училища
+
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_art.html")
+									img(src="./img/projects/health/health_art.jpg", alt="Творчество, рукоделие, мастерклассы")
+								p Творчество, рукоделие, мастерклассы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_yoga.html")
+									img(src="./img/projects/health/health_yoga.jpg", alt="Йога")
+								p Йога
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_dance.html")
+									img(src="./img/projects/health/health_dance.jpg", alt="Танцы")
+								p Танцы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_sport.html")
+									img(src="./img/projects/health/health_sport.jpg", alt="Спорт")
+								p Спорт
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="health_photo.html")
+									img(src="./img/projects/health/health_photo.jpg", alt="Фотографии, видеокурсы")
+								p Фотографии, видеокурсы
+
+	include includes/_footer
+
+

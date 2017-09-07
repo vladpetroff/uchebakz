@@ -1,0 +1,75 @@
+extends includes/template
+
+block title
+	title Курсы, тренинги, семинары | Учеба.кз
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				section.projects.block
+					h1 Курсы, тренинги, семинары
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_lang.html")
+									img(src="./img/projects/train/train_lang.jpg", alt="Языковые курсы")
+								p Языковые курсы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_prep.html")
+									img(src="./img/projects/train/train_prep.jpg", alt="Подготовительные курсы")
+								p Подготовительные курсы
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_tech.html")
+									img(src="./img/projects/train/train_tech.jpg", alt="Технические специальности")
+								p Технические специальности
+
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_economics.html")
+									img(src="./img/projects/train/train_economics.jpg", alt="Бизнес курсы и Экономика")
+								p Бизнес курсы и Экономика
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_IT.html")
+									img(src="./img/projects/train/train_IT.jpg", alt="Курсы IT")
+								p Курсы IT
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_drive.html")
+									img(src="./img/projects/train/train_drive.jpg", alt="Автошколы и Курсы вождения")
+								p Автошколы и Курсы вождения
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_psy.html")
+									img(src="./img/projects/train/train_psy.jpg", alt="Личностный рост и психологические тренинги")
+								p Личностный рост и психологические тренинги
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="train_tourism.html")
+									img(src="./img/projects/train/train_tourism.jpg", alt="Туризм, гостиницы, рестораны, дизайн")
+								p Туризм, гостиницы, рестораны, дизайн
+
+	include includes/_footer
+
+

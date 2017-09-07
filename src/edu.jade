@@ -1,0 +1,51 @@
+extends includes/template
+
+block title
+	title Учебные заведения | Учеба.кз
+
+
+block content
+	.container
+		include includes/_header
+
+		include includes/_navbar
+
+		.row
+			aside.col-sm-3.hidden-xs
+				include includes/_sidebar
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				section.projects.block
+					h1 Учебные заведения
+					.row
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="edu_begin.html")
+									img(src="./img/projects/edu/edu_begin.jpg", alt="Начальные учебные заведения")
+								p Начальные учебные заведения
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="edu_middle.html")
+									img(src="./img/projects/edu/edu_middle.jpg", alt="Среднее образование")
+								p Среднее образование
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="edu_high.html")
+									img(src="./img/projects/edu/edu_high.jpg", alt="Высшее образование")
+								p Высшее образование
+
+
+						.col-md-4.col-sm-6.col-xs-12
+							article
+								a(href="edu_music.html")
+									img(src="./img/projects/edu/edu_music.jpg", alt="Музыкальные школы")
+								p Музыкальные школы
+
+	include includes/_footer
+
+
