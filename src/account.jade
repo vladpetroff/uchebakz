@@ -11,84 +11,84 @@ block content
 		include includes/_navbar
 
 		.row
-			aside.col-sm-3.hidden-xs
-				include includes/_sidebar
-
-			.col-sm-8.col-sm-offset-1.col-xs-12
+			.col-sm-8.col-sm-offset-2.col-xs-12
 
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
-					li: a(href="account.html") Личный кабинет
+					li.active Личный кабинет
 
-				.row
-					.col-sm-9.col-xs-12
-						section.content.contacts
-							h1 Личный кабинет
+				section.content.contacts
+					h1 Личный кабинет
 
-							form(name='feedbackForm')#feedbackForm.form-horizontal
-								h4 Профиль
+					form(name='feedbackForm')#feedbackForm.form-horizontal
+						h4 Профиль
 
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
-									.col-sm-9
-										input#formGroupInputSurname.form-control(type='text', placeholder='', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputName') Имя
-									.col-sm-9
-										input#formGroupInputName.form-control(type='text', placeholder='', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
-									.col-sm-9
-										input#formGroupInputParentName.form-control(type='text', placeholder='', maxlength="255")
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
-									.col-sm-9
-										input#formGroupInputEmail.form-control(type='text', placeholder='', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
-									.col-sm-9
-										input#formGroupInputPhone.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
+							.col-sm-9
+								input#formGroupInputSurname.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputName') Имя
+							.col-sm-9
+								input#formGroupInputName.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
+							.col-sm-9
+								input#formGroupInputParentName.form-control(type='text', placeholder='', maxlength="255")
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
+							.col-sm-9
+								input#formGroupInputEmail.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
+							.col-sm-9
+								input#formGroupInputPhone.form-control(type='text', placeholder='', maxlength="255").required
 
-								h4 Информация об организации
+						h4 Информация об организации
 
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputTheme') Наименование организации
-									.col-sm-9
-										input#formGroupInputTheme.form-control(type='text', placeholder='Наименование организации', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputTextarea') Описание курса/ предлагаемой услуги
-									.col-sm-9
-										textarea(rows="5", placeholder="Может содержать не более 2000 знаков", maxlength="2000").required.form-control#formGroupInputTextarea
-										p.help-block.pull-right #[span#count 0]/2000
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputPhone') Контактные телефоны
-									.col-sm-9
-										input#formGroupInputPhoneOrg.form-control(type='text', placeholder='', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputAddress') Почтовый адрес
-									.col-sm-9
-										input#formGroupInputAddress.form-control(type='text', placeholder='Индекс, город, улица, дом, офис', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
-									.col-sm-9
-										input#formGroupInputEmailOrg.form-control(type='text', placeholder='', maxlength="255").required
-								.form-group
-									label.col-sm-3.control-label(for='formGroupInputFile') Документ
-									.col-sm-9
-										input(type="file", value="Выбрать файл", accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")#formGroupInputFile.btn.btn-primary
-										//input#formGroupInputFile.form-control(type='file')
-										p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
-										p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
-								.form-group
-									label.col-sm-3.control-label.hidden-xs
-									.col-sm-9
-										.checkbox.checkbox-warning
-											input(type="checkbox" id="agreed" name='agreed')
-											label(for="agreed").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
-								.form-group
-									label.col-sm-3.control-label
-									.col-sm-9
-										button(type="submit" disabled name="submitFeedback").btn.btn-warning: strong Отправить
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputTheme') Наименование организации
+							.col-sm-9
+								input#formGroupInputTheme.form-control(type='text', placeholder='Наименование организации', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputTextarea') Описание курса/ предлагаемой услуги
+							.col-sm-9
+								textarea(rows="5", placeholder="Может содержать не более 2000 знаков", maxlength="2000").required.form-control#formGroupInputTextarea
+								p.help-block.pull-right #[span#count 0]/2000
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputRubr') Рубрика размещения
+							.col-sm-9
+								select#formGroupInputRubr.form-control().required
+									option Подгрузка элементов из sidebar.jade
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputPhone') Контактные телефоны
+							.col-sm-9
+								input#formGroupInputPhoneOrg.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputAddress') Адрес
+							.col-sm-9
+								input#formGroupInputAddress.form-control(type='text', placeholder='Индекс, город, улица, дом, офис', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
+							.col-sm-9
+								input#formGroupInputEmailOrg.form-control(type='text', placeholder='', maxlength="255").required
+						.form-group
+							label.col-sm-3.control-label(for='formGroupInputFile') Документ
+							.col-sm-9
+								input(type="file", value="Выбрать файл", accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")#formGroupInputFile.btn.btn-primary
+								//input#formGroupInputFile.form-control(type='file')
+								p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
+								p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
+						.form-group
+							label.col-sm-3.control-label.hidden-xs
+							.col-sm-9
+								.checkbox.checkbox-warning
+									input(type="checkbox" id="agreed" name='agreed')
+									label(for="agreed").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
+						.form-group
+							label.col-sm-3.control-label
+							.col-sm-9
+								button(type="submit" disabled name="submitFeedback").btn.btn-warning: strong Отправить
 
 
 

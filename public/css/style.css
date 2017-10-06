@@ -4450,6 +4450,8 @@ aside {
       color: #ccc; }
   .breadcrumb > .active {
     color: rgba(0, 0, 0, 0.5); }
+    .breadcrumb > .active:after {
+      display: none; }
 
 .pagination {
   display: inline-block;

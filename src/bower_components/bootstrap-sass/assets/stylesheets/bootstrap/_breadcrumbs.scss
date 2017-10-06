@@ -28,5 +28,8 @@
 
   > .active {
     color: $breadcrumb-active-color;
+    &:after {
+      display:none;
+    }
   }
 }

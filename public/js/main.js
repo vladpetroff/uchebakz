@@ -56,6 +56,7 @@
 	;$(function () {
 		/* Current submenu */
 		var cur_href = document.location.pathname;
+		console.log(cur_href);
 		cur_href = cur_href.slice(1);
 		console.log(cur_href);
 
