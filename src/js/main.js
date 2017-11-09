@@ -3,10 +3,8 @@
 ;$(function(){
 	/* Current submenu */
 	var cur_href = document.location.pathname;
-    console.log(cur_href);
 	var slashPosition = cur_href.lastIndexOf('/');
 	var menu_href = cur_href.slice(slashPosition+1);
-	console.log(menu_href);
 
 	$('a[href="'+menu_href+'"]', 'nav.navbar').parent('li').addClass('active open').parents('li').addClass('open');
 

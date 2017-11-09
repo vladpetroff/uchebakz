@@ -9,53 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_manage.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_manage_detail.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_programs.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_programs_rulang.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_programs_strategy.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/about_structure.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/contacts.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_bxslider.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_carousel.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_fancybox.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_formelements.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_mainmenu.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/includes/_sidemenu.jade_" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage.html" afterPath="$PROJECT_DIR$/public/about_manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage_detail.html" afterPath="$PROJECT_DIR$/public/about_manage_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs.html" afterPath="$PROJECT_DIR$/public/about_programs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_rulang.html" afterPath="$PROJECT_DIR$/public/about_programs_rulang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_strategy.html" afterPath="$PROJECT_DIR$/public/about_programs_strategy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_structure.html" afterPath="$PROJECT_DIR$/public/about_structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/account.html" afterPath="$PROJECT_DIR$/public/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/article_detail.html" afterPath="$PROJECT_DIR$/public/article_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/children.html" afterPath="$PROJECT_DIR$/public/children.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/children_art.html" afterPath="$PROJECT_DIR$/public/children_art.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/children_art_aviamodel.html" afterPath="$PROJECT_DIR$/public/children_art_aviamodel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts.html" afterPath="$PROJECT_DIR$/public/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/edu.html" afterPath="$PROJECT_DIR$/public/edu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/foreign.html" afterPath="$PROJECT_DIR$/public/foreign.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/health.html" afterPath="$PROJECT_DIR$/public/health.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/searchResult.html" afterPath="$PROJECT_DIR$/public/searchResult.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/training.html" afterPath="$PROJECT_DIR$/public/training.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/account.jade" afterPath="$PROJECT_DIR$/src/account.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/article_detail.jade" afterPath="$PROJECT_DIR$/src/article_detail.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_footer.jade" afterPath="$PROJECT_DIR$/src/includes/_footer.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_header.jade" afterPath="$PROJECT_DIR$/src/includes/_header.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_navbar.jade" afterPath="$PROJECT_DIR$/src/includes/_navbar.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/searchResult.jade" afterPath="$PROJECT_DIR$/src/searchResult.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/training.jade" afterPath="$PROJECT_DIR$/src/training.jade" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,18 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="children.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/children.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
-              <folding>
-                <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="children_art.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/children_art.jade">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,11 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="training.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/training.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="152">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -291,7 +244,6 @@
         <option value="$PROJECT_DIR$/src/includes/_header.jade" />
         <option value="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
         <option value="$PROJECT_DIR$/src/includes/_navbar.jade" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/index.jade" />
         <option value="$PROJECT_DIR$/src/children.jade" />
         <option value="$PROJECT_DIR$/src/article_detail.jade" />
@@ -299,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/searchResult.jade" />
         <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/src/training.jade" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
       </list>
     </option>
   </component>
@@ -598,12 +551,12 @@
       <workItem from="1502677336481" duration="4657000" />
       <workItem from="1504784560775" duration="7477000" />
       <workItem from="1507291528039" duration="2459000" />
-      <workItem from="1510210210986" duration="7755000" />
+      <workItem from="1510210210986" duration="7963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58560000" />
+    <option name="totallyTimeSpent" value="58768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1078" height="877" extended-state="0" />
@@ -617,7 +570,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24076433" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52611464" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -807,14 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/_formelements.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -950,17 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="n#section#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/health.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -991,8 +925,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/training.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="152">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding />
         </state>
       </provider>
