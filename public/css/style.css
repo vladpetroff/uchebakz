@@ -7053,102 +7053,11 @@ div.subscribe {
     font-size: 16px;
     line-height: 1.3em; }
 
-header .headerRegion > hr {
-  border-color: rgba(0, 0, 0, 0.1);
-  margin: 0; }
-
-header .headerRegion .flag {
-  width: 20px;
-  height: 12px; }
-
-header .headerRegion .selectpicker {
-  display: none; }
-
-header .headerRegion .blindVersion {
-  padding: 8px 0px 8px 30px;
-  display: inline-block;
-  line-height: 1.1;
-  color: rgba(0, 0, 0, 0.5); }
-  header .headerRegion .blindVersion span {
-    display: inline-block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
-
-header .headerRegion .repres {
-  padding: 8px 0;
-  display: inline-block;
-  line-height: 1.1;
-  color: rgba(0, 0, 0, 0.5);
-  margin-right: 20px; }
-  header .headerRegion .repres span {
-    display: inline-block;
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
-  header .headerRegion .repres.open .caret {
-    border-bottom: 4px dashed;
-    border-bottom: 4px solid \9;
-    border-top: none;
-    border-top: none \9;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent; }
-
-header .headerRegion .represBlock {
-  padding-left: 6px;
-  padding-right: 6px;
-  display: none;
-  padding-bottom: 30px;
-  position: absolute;
-  z-index: 100;
-  border-radius: 2px;
-  background-color: #ffffff;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  border: solid 1px rgba(0, 0, 0, 0.12);
-  margin-top: 2px; }
-  header .headerRegion .represBlock .represCloseBtn {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    cursor: pointer;
-    z-index: 10; }
-  header .headerRegion .represBlock h2 {
-    font-size: 20px;
-    line-height: 1.4;
-    text-align: center;
-    margin-top: 9px;
-    color: rgba(0, 0, 0, 0.87); }
-  header .headerRegion .represBlock h3 {
-    font-size: 16px;
-    line-height: 1.3;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    color: rgba(0, 0, 0, 0.87); }
-  header .headerRegion .represBlock .media {
-    margin-bottom: 12px; }
-    header .headerRegion .represBlock .media + .media {
-      margin-top: 0; }
-    header .headerRegion .represBlock .media .media-left {
-      padding-right: 12px; }
-      header .headerRegion .represBlock .media .media-left .media-object {
-        width: 20px;
-        min-height: 12px;
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
-        header .headerRegion .represBlock .media .media-left .media-object img {
-          width: 100%; }
-    header .headerRegion .represBlock .media .media-body .media-heading {
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 1.1;
-      color: rgba(0, 0, 0, 0.87); }
-    header .headerRegion .represBlock .media .media-body a {
-      display: inline-block; }
-      header .headerRegion .represBlock .media .media-body a + a {
-        margin-top: 4px; }
-    header .headerRegion .represBlock .media .media-body a.selected {
-      color: #000;
-      cursor: default; }
-
 header .headerContent {
   padding-top: 22px;
   padding-bottom: 16px; }
+  header .headerContent .headerContact, header .headerContent .headerSocial, header .headerContent .headerAccount {
+    text-align: center; }
   header .headerContent p {
     color: rgba(0, 0, 0, 0.5);
     line-height: 1.1em;
@@ -7190,17 +7099,17 @@ header .headerContent {
     header .headerContent .headerSocial .social a:first-child {
       margin-left: 0; }
   header .headerContent .headerContact h2 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.3;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 5px; }
     header .headerContent .headerContact h2 a {
       color: rgba(0, 0, 0, 0.87); }
   header .headerContent .headerContact p {
     margin-bottom: 5px; }
   header .headerContent .headerContact a {
-    font-size: 18px;
-    line-height: 1.3; }
+    font-size: 14px;
+    line-height: 1.1; }
   header .headerContent .headerMap p {
     margin-bottom: 5px; }
 
@@ -7220,6 +7129,12 @@ header .headerContent {
     background-image: url("../img/icons/social/yt-blue.svg"); }
   .social a.tw {
     background-image: url("../img/icons/social/tw-blue.svg"); }
+
+.searchResult h1 {
+  font-size: 35px;
+  margin: 15px 0px 21px;
+  line-height: 1.2;
+  color: #ff6d00; }
 
 .searchResult .navbarResult {
   overflow: hidden;
@@ -7347,7 +7262,9 @@ footer {
     margin-bottom: 20px;
     line-height: normal; }
   footer hr {
-    border-color: rgba(255, 255, 255, 0.2); }
+    border-color: rgba(255, 255, 255, 0.2);
+    margin-top: 21px;
+    width: 288px; }
   footer .social a {
     display: inline-block;
     width: 28px;
@@ -7436,13 +7353,14 @@ footer {
     margin-top: 20px; }
     footer .social a {
       margin-bottom: 15px; }
-  .searchResult {
-    margin-top: 60px; }
-    .searchResult .navbarResult .navbar-nav {
-      margin: 10px;
-      text-align: center; }
-      .searchResult .navbarResult .navbar-nav > li {
-        display: inline-block; } }
+  .searchResult h1 {
+    font-size: 1.7em;
+    text-align: center; }
+  .searchResult .navbarResult .navbar-nav {
+    margin: 10px;
+    text-align: center; }
+    .searchResult .navbarResult .navbar-nav > li {
+      display: inline-block; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   body {
@@ -7577,10 +7495,7 @@ footer {
       margin-top: 36px;
       margin-bottom: 25px;
       font-size: 18px;
-      font-weight: bold; }
-    footer hr {
-      margin-top: 21px;
-      width: 288px; } }
+      font-weight: bold; } }
 
 @media (min-width: 992px) {
   .readmore {
@@ -8219,7 +8134,10 @@ footer {
   header .headerContent .headerSubscr .form-control {
     width: 75%; }
   header .headerContent .headerContact a {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.2; }
+  header .headerContent .headerAccount a {
+    font-size: 18px;
     line-height: 1.2; }
   header .headerContent p {
     font-size: 16px; }

@@ -1,224 +1,95 @@
 extends includes/template
 
 block title
-	title Написать обращение
+    title Добавить учебное учреждение
 
 
 block content
-	.container
-		include includes/_header
+    .container
+        include includes/_header
 
-		include includes/_navbar
+        include includes/_navbar
 
-		.row
-			.col-sm-8.col-sm-offset-2.col-xs-12
+        .row
+            .col-md-8.col-md-offset-2.col-xs-12
 
-				ol.breadcrumb.hidden-xs
-					li: a(href="./") Главная страница
-					li.active Личный кабинет
+                ol.breadcrumb.hidden-xs
+                    li: a(href="./") Главная страница
+                    li.active Добавить учебное заведение
 
-				section.content.contacts
-					h1 Личный кабинет
+                section.content.contacts
+                    h1 Добавить учебное заведение
 
-					form(name='feedbackForm')#feedbackForm.form-horizontal
-						h4 Профиль
+                    form(name='feedbackForm')#feedbackForm.form-horizontal
+                        h4 Профиль
 
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
-							.col-sm-9
-								input#formGroupInputSurname.form-control(type='text', placeholder='', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputName') Имя
-							.col-sm-9
-								input#formGroupInputName.form-control(type='text', placeholder='', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
-							.col-sm-9
-								input#formGroupInputParentName.form-control(type='text', placeholder='', maxlength="255")
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
-							.col-sm-9
-								input#formGroupInputEmail.form-control(type='text', placeholder='', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
-							.col-sm-9
-								input#formGroupInputPhone.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
+                            .col-sm-9
+                                input#formGroupInputSurname.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputName') Имя
+                            .col-sm-9
+                                input#formGroupInputName.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
+                            .col-sm-9
+                                input#formGroupInputParentName.form-control(type='text', placeholder='', maxlength="255")
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
+                            .col-sm-9
+                                input#formGroupInputEmail.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
+                            .col-sm-9
+                                input#formGroupInputPhone.form-control(type='text', placeholder='', maxlength="255").required
 
-						h4 Информация об организации
+                        h4 Информация об учебном заведении
 
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputTheme') Наименование организации
-							.col-sm-9
-								input#formGroupInputTheme.form-control(type='text', placeholder='Наименование организации', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputTextarea') Описание курса/ предлагаемой услуги
-							.col-sm-9
-								textarea(rows="5", placeholder="Может содержать не более 2000 знаков", maxlength="2000").required.form-control#formGroupInputTextarea
-								p.help-block.pull-right #[span#count 0]/2000
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputRubr') Рубрика размещения
-							.col-sm-9
-								select#formGroupInputRubr.form-control().required
-									option Подгрузка элементов из sidebar.jade
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputPhone') Контактные телефоны
-							.col-sm-9
-								input#formGroupInputPhoneOrg.form-control(type='text', placeholder='', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputAddress') Адрес
-							.col-sm-9
-								input#formGroupInputAddress.form-control(type='text', placeholder='Индекс, город, улица, дом, офис', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
-							.col-sm-9
-								input#formGroupInputEmailOrg.form-control(type='text', placeholder='', maxlength="255").required
-						.form-group
-							label.col-sm-3.control-label(for='formGroupInputFile') Документ
-							.col-sm-9
-								input(type="file", value="Выбрать файл", accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")#formGroupInputFile.btn.btn-primary
-								//input#formGroupInputFile.form-control(type='file')
-								p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
-								p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
-						.form-group
-							label.col-sm-3.control-label.hidden-xs
-							.col-sm-9
-								.checkbox.checkbox-warning
-									input(type="checkbox" id="agreed" name='agreed')
-									label(for="agreed").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
-						.form-group
-							label.col-sm-3.control-label
-							.col-sm-9
-								button(type="submit" disabled name="submitFeedback").btn.btn-warning: strong Отправить
-
-
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputTheme') Наименование
+                            .col-sm-9
+                                input#formGroupInputTheme.form-control(type='text', placeholder='Наименование', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputTextarea') Описание курса/ предлагаемой услуги
+                            .col-sm-9
+                                textarea(rows="5", placeholder="Может содержать не более 2000 знаков", maxlength="2000").required.form-control#formGroupInputTextarea
+                                p.help-block.pull-right #[span#count 0]/2000
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputRubr') Рубрика размещения
+                            .col-sm-9
+                                select#formGroupInputRubr.form-control().required
+                                    option Подгрузка элементов из sidebar.jade
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputPhone') Контактные телефоны
+                            .col-sm-9
+                                input#formGroupInputPhoneOrg.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputAddress') Адрес
+                            .col-sm-9
+                                input#formGroupInputAddress.form-control(type='text', placeholder='Индекс, город, улица, дом, офис', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
+                            .col-sm-9
+                                input#formGroupInputEmailOrg.form-control(type='text', placeholder='', maxlength="255").required
+                        .form-group
+                            label.col-sm-3.control-label(for='formGroupInputFile') Документ
+                            .col-sm-9
+                                input(type="file", value="Выбрать файл", accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")#formGroupInputFile.btn.btn-primary
+                                //input#formGroupInputFile.form-control(type='file')
+                                p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
+                                p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
+                        .form-group
+                            label.col-sm-3.control-label.hidden-xs
+                            .col-sm-9
+                                .checkbox.checkbox-warning
+                                    input(type="checkbox" id="agreed" name='agreed')
+                                    label(for="agreed").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
+                        .form-group
+                            label.col-sm-3.control-label
+                            .col-sm-9
+                                button(type="submit" disabled name="submitFeedback").btn.btn-warning: strong Отправить
 
 
-	footer.row.visible-sm.visible-xs
-		.container
-			.row
-				.col-xs-12
-					h4 Присоединяйтесь к нам #[br.visible-xs]в социальных сетях:
-					.social
-						a(href="javascript:;").fb
-						a(href="javascript:;").vk
-						a(href="javascript:;").inst
-						a(href="javascript:;").yt
-						a(href="javascript:;").tw
 
-						hr
-					p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
-
-					p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
-
-
-	footer.hidden-sm.hidden-xs
-		.container
-			.row.links
-				.col-sm-2
-					h4: a(href="about.html") О Россотрудничестве
-					ul
-						li: a(href="about_programs.html") Государственные программы
-						li: a(href="about_structure.html") Структура
-						li: a(href="about_manage.html") Руководство
-						//li: a(href="javascript:;") История
-
-				.col-sm-2
-					h4: a(href="activity.html") Деятельность
-					ul
-						li: a(href="activity_smp.html") Содействие международному развитию
-						li: a(href="activity_diplomacy.html") Общественная дипломатия
-						li: a(href="activity_russianCulture.html") Продвижение русской культуры
-						li: a(href="activity_soot.html") Поддержка соотечественников
-						li: a(href="activity_rulang.html") Укрепление позиций русского языка
-						li: a(href="activity_edu.html") Образование и наука
-						li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
-						li: a(href="activity_international.html") Международные связи субъектов РФ
-						li: a(href="activity_integration.html") Интеграция стран СНГ
-
-				.col-sm-2
-					h4: a(href="anons.html") Анонсы
-					ul
-						li: a(href="anons.html") Кино
-						li: a(href="anons.html") Выставки
-						li: a(href="anons.html") Концерты
-						li: a(href="anons.html") Спектакли
-						li: a(href="anons.html") Конференции
-						li: a(href="anons.html") Семинары
-						li: a(href="anons.html") Конкурсы
-						li: a(href="anons.html") Творческие встречи
-						li: a(href="anons.html") Конференции
-
-				.col-sm-2
-					h4: a(href="news.html") Новости
-					ul
-						li: a(href="news.html") Россия
-						li: a(href="news.html") СНГ
-						li: a(href="news.html") Мир
-						li: a(href="news.html") Образование
-						li: a(href="news.html") Наука и техника
-						li: a(href="news.html") Культура
-						li: a(href="news.html") Общество
-						li: a(href="news.html") Русский язык
-						li: a(href="news.html") Народная дипломатия
-						li: hr
-						li: a(href="news.html") Все темы
-
-				.col-sm-2
-					h4: a(href="contacts.html") Контакты
-					ul
-						li: a(href="contacts_center.html") Центральный аппарат
-						li: a(href="contacts_inworld.html") Представительства в мире
-						li: a(href="contacts_callback.html").active Написать обращение
-
-				.col-sm-2
-					h4 Подписывайтесь:
-					.footerSubscr
-						button(type="submit").pull-right.btn.btn-warning: strong OK
-						input(type="email", placeholder="Ваша эл.почта").form-control
-
-					.footerSocial
-						h4 И присоединяйтесь:
-						.social
-							a(href="javascript:;").fb
-							a(href="javascript:;").vk
-							a(href="javascript:;").inst
-							a(href="javascript:;").yt
-							a(href="javascript:;").tw
-
-			.row
-				.col-xs-12
-					hr
-				.col-xs-5.footInfo
-					.block.err
-						p.
-							Нашли опечатку? #[br]
-							Сообщите нам, выделив текст с ошибкой и нажав Ctrl+Enter
-
-					.block.copy
-						p.
-							Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
-
-					.block.geo
-						p.
-							125009, Москва, ул. Воздвиженка, д. 18/9 #[br]
-							Эл. почта: #[a(href="mailto:rossotr@rs.gov.ru") rossotr@rs.gov.ru] #[br]
-							#[a(href="contacts.html") Контактная информация]
-
-				.col-xs-6.col-xs-offset-1.footGov
-					.row
-						.col-xs-4.text-center
-							a(href="http://www.kremlin.ru/", target="_blank")
-								img(src="./img/icons/kremlin-ru-logo.png", alt="Президент России")
-								span Президент России
-
-						.col-xs-4.text-center
-							a(href="http://government.ru/", target="_blank")
-								img(src="./img/icons/govenrment-logo.png", alt="Правительство Российской Федерации")
-								span Правительство Российской Федерации
-
-						.col-xs-4.text-center
-							a(href="http://www.mid.ru/ru/home", target="_blank")
-								img(src="./img/icons/mid-logo.png", alt="Министерство иностранных дел")
-								span Министерство иностранных дел
-
-
+    include includes/_footer
